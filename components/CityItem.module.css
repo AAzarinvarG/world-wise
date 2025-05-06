@@ -1,0 +1,37 @@
+.parentSeaction {
+  margin-top: 3rem;
+  width: 45rem;
+  height: 29rem;
+  background-color: var(--color-dark--2);
+  border-radius: 8px;
+  padding: 2rem 2rem;
+}
+
+.parentSeaction div {
+  margin-bottom: 2rem;
+}
+
+.parentSeaction h2 {
+  color: white;
+  margin-left: 0.2rem;
+}
+
+.parentSeaction h5 {
+  text-transform: uppercase;
+  color: var(--color-light--1);
+}
+
+.parentSeaction h3 {
+  color: white;
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+}
+
+.parentSeaction div a {
+  color: var(--color-brand--1);
+}
+
+.parentSeaction div a h3 {
+  margin-left: 0;
+  color: var(--color-brand--1);
+}

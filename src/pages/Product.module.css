@@ -1,0 +1,28 @@
+.productSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89.5vh;
+}
+
+.productSection div img {
+  width: 38rem;
+}
+
+.content {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content div h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.content div p {
+  font-size: 1.4rem;
+  color: var(--color-light--3);
+  margin-top: 3rem;
+  width: 30rem;
+}

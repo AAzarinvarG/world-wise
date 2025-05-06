@@ -1,0 +1,29 @@
+.pricingSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89.5vh;
+}
+
+.pricingSection img {
+  width: 38rem;
+}
+
+.content {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content div h1 {
+  font-size: 4rem;
+  line-height: 5rem;
+  margin-top: 6rem;
+}
+
+.content div p {
+  font-size: 1.5rem;
+  color: var(--color-light--3);
+  margin-top: 4rem;
+  width: 30rem;
+}

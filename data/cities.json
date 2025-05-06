@@ -1,0 +1,15 @@
+{
+  "cities": [
+    {
+      "id": "e206",
+      "date": "2025-05-05T13:17:49.434Z",
+      "cityName": "London",
+      "countryName": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "notes": "",
+      "position": {
+        "lat": "51.440312757160115",
+        "lng": "-0.06591796875000001"
+      }
+    }
+  ]
+}

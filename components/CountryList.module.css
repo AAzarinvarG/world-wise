@@ -1,0 +1,11 @@
+.countryList {
+  width: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+  padding: 0.5rem 0;
+  margin-top: 2rem;
+  list-style: none;
+  gap: 1rem 1rem;
+  padding: 0.5rem 0.8rem;
+}

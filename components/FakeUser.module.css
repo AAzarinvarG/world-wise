@@ -1,0 +1,37 @@
+.userInfoSection {
+  background-color: #2d3439;
+  position: fixed;
+  z-index: 1000;
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  right: 0.5rem;
+  top: 0.5rem;
+  padding: 0 0.5rem;
+  border-radius: 10px;
+}
+
+.userInfoSection img {
+  width: 2.8rem;
+  border-radius: 100%;
+}
+
+.userInfoSection h4 {
+  font-size: 0.9rem;
+}
+
+.userInfoSection button {
+  padding: 0.8rem;
+  font-size: 0.7rem;
+  border-radius: 8px;
+  border: 2px solid #42484d;
+  background-color: #42484d;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.userInfoSection button:hover {
+  border-bottom: 2px solid #ffb545;
+}

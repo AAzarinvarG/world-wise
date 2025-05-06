@@ -1,0 +1,55 @@
+.form {
+  display: grid;
+  background-color: var(--color-dark--2);
+  margin-top: 3rem;
+  padding: 0 2rem;
+  padding-top: 1rem;
+  border-radius: 8px;
+}
+
+.form label {
+  margin-bottom: 0.3rem;
+  color: var(--color-light--2);
+  font-size: 1.1rem;
+}
+
+.form input,
+textarea {
+  background-color: var(--color-light--2);
+  border: 0;
+  outline: none;
+  color: var(--color-dark--0);
+  padding: 0.5rem 0.5rem;
+  width: 35rem;
+  height: 2.5rem;
+  min-width: 35rem;
+  max-width: 35rem;
+  min-height: 2.5rem;
+  max-height: 20rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.form .headerBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.addBtn {
+  width: 5rem;
+  height: 2.6rem;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,33 @@
+.nav {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 0 2rem;
+  margin-right: 2.5rem;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav :global(.active) {
+  color: var(--color-brand--2);
+}
+
+.loginBtn:link,
+.loginBtn:visited {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+}
