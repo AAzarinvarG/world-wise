@@ -67,7 +67,7 @@ function CitiesProvider({ children }) {
     async function setDataOnState() {
       try {
         dispatch({ type: "Loading" });
-        const api = await fetch("http://localhost:9000/cities");
+        const api = await fetch("https://localhost:9000/cities");
         const res = await api.json();
 
         dispatch({ type: "GetCitiesInfo", payload: res });
@@ -84,7 +84,7 @@ function CitiesProvider({ children }) {
 
     try {
       dispatch({ type: "Loading" });
-      const api = await fetch(`http://localhost:9000/cities/${id}`);
+      const api = await fetch(`https://localhost:9000/cities/${id}`);
       const res = await api.json();
 
       dispatch({ type: "GetCityInfo", payload: res });
@@ -96,7 +96,7 @@ function CitiesProvider({ children }) {
   async function setDataOnFakeApi(newCity) {
     try {
       dispatch({ type: "Loading" });
-      const api = await fetch("http://localhost:9000/cities", {
+      const api = await fetch("https://localhost:9000/cities", {
         method: "POST",
         body: JSON.stringify(newCity),
         headers: {
@@ -114,7 +114,7 @@ function CitiesProvider({ children }) {
   async function deleteCity(cityId) {
     try {
       dispatch({ type: "Loading" });
-      await fetch(`http://localhost:9000/cities/${cityId}`, {
+      await fetch(`https://localhost:9000/cities/${cityId}`, {
         method: "DELETE",
       });
 
